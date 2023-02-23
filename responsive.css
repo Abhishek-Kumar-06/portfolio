@@ -1,0 +1,78 @@
+/* Navigation Bar  */
+#navbar {
+    height: 55px;
+    margin-bottom: 45px;
+}
+
+#leftnav {
+    height: 38px;
+    width: 45px;
+    margin-left: 7px;
+}
+
+#resp_t {
+    display: block;
+}
+
+/* #leftnav a h1{
+    font-size: 28px;
+} */
+#rightnav {
+    margin-left: 5px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px 5px 15px;
+    font-size: 9.5px;
+    font-weight: 600;
+}
+
+#navbar ul li a:hover {
+    border-bottom: none;
+}
+
+/* Main Section  */
+#scont1 {
+    width: 80%;
+    margin: auto;
+}
+
+#scont p,
+h1 {
+    width: 100%;
+}
+
+#scont2 img {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#scont3 p {
+    width: 100%;
+    padding: 0px 20px;
+}
+
+#scont4 {
+    margin-top: 35px;
+}
+
+#scont4 h1 {
+    width: 100%;
+}
+
+#scont6 {
+    margin-top: 35px;
+}
+
+#sec4 {
+    padding-bottom: 55px;
+}
+
+/* Footer Bar  */
+footer {
+    padding-top: 40px;
+}
+
+/* This is the basic responsive CSS style file for portfolio.html */

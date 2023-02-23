@@ -1,0 +1,157 @@
+/* Universal Propeties */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #e7efe1;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar  */
+#navbar {
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 15px 12px 0 rgb(0 0 0 / 5%);
+    margin-bottom: 50px;
+}
+
+/* Left Navigation Bar  */
+#leftnav {
+    height: 60px;
+    width: 140px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
+#leftnav a {
+    text-decoration: none;
+    color: white;
+}
+
+#resp_t {
+    display: none;
+}
+
+/* Right Navigation Bar  */
+#rightnav {
+    margin-right: 20px;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px 12px 29px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#navbar ul li a:hover {
+    border-bottom: 2px solid #1fc667;
+}
+
+/* Main Section */
+#sec1 {
+    justify-content: center;
+}
+
+#sec1 img {
+    width: 95%;
+    height: auto;
+    padding: 0px 0px 25px 0px;
+}
+
+#sec2 {
+    min-height: 450px;
+}
+
+#scont1 {
+    max-width: 300px;
+}
+
+#scont2 img {
+    width: 450px;
+    height: auto;
+    margin-left: 60px;
+    position: relative;
+    animation: slide 4s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(25px)
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+#scont3 p {
+    max-width: 600px;
+    margin: auto;
+}
+
+.bitm:hover {
+    transform: scale(1.05);
+}
+
+#scont4 {
+    margin-top: 60px;
+}
+
+#econt1 {
+    margin-right: 50px;
+}
+
+.econt:hover {
+    transform: scale(1.05);
+}
+
+#scont6 {
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+#certificates {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+/* Footer Bar  */
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+
+/* This is the basic CSS style file for portfolio.html */
