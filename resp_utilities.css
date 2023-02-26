@@ -93,6 +93,10 @@
     margin: 15px 0px;
 }
 
+.resp-econt:hover {
+    transform: scale(1);
+}
+
 .resp-emr {
     margin-right: 0px;
 }
